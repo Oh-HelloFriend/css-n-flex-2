@@ -71,7 +71,7 @@ body{
     padding-left: 20%;
     padding-right: 20%;
 }
-.bigupdown{
+.paddingupdown{
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -80,4 +80,15 @@ body{
 }
 .justifybetween{
     justify-content: space-between;
+}
+.aligncenter{
+    align-items: center;
+}
+.flexone{
+    flex: 1;
+}
+.littlebar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex: 0 0 0;
 }
