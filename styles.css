@@ -3,10 +3,42 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
-
 ol, ul{
     list-style: none;
     display: flex;
 }
-
+em{
+    font: lighter italic;
+}
+.darkbluebg{
+    background-color: #1F2937;
+}
+.bluebg{
+    background-color: #3882F6;
+}
+.graybg{
+    background-color: #E5E7EB;
+}
+.white{
+    color: #F9FAF8;
+}
+.gray{
+    color: #E5E7EB;
+}
+.black{
+    color: #1F2937;
+}
+.fortyeight{
+    font-size: 48px;
+}
+.twentyfour{
+    font-size: 24px;
+}
+.thirtysix{
+    font-size: 36px;
+}
+.extrabold{
+    font: bolder;
+}
