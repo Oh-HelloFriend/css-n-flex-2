@@ -1,12 +1,12 @@
 *{
-    font-family: "Roboto", "Times New Roman", sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 18px;
     background-color: #F9FAF8;
 }
-ol, ul{
+ol, ul, li{
     list-style: none;
     display: flex;
 }
@@ -64,12 +64,12 @@ body{
     height: auto;
 }
 .smallpadding{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .bigpadding{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 23%;
+    padding-right: 23%;
 }
 .paddingupdown{
     padding-top: 10%;
@@ -81,14 +81,20 @@ body{
 .justifybetween{
     justify-content: space-between;
 }
+.justifyright{
+    justify-content: end;
+}
 .aligncenter{
     align-items: center;
 }
 .flexone{
     flex: 1;
 }
+.flexthree{
+    flex: 3;
+}
 .littlebar{
     padding-top: 30px;
     padding-bottom: 30px;
-    flex: 0 0 0;
+    flex: 0 1 auto;
 }
