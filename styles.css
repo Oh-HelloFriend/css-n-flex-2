@@ -50,11 +50,11 @@ body{
     font-size: 36px;
 }
 .extrabold{
-    font: bolder;
+    font-weight: bolder;
 }
 /* Flex */
 .flex{
-display: flex;
+    display: flex;
 }
 .column{
     flex-direction: column;
@@ -93,6 +93,9 @@ display: flex;
 .textcenter{
     text-align: center;
 }
+.gap{
+    gap: 5%;
+}
 /* Padding */
 .smallpadding{
     padding-left: 15%;
@@ -110,7 +113,7 @@ display: flex;
     padding-top: 4%;
     padding-bottom: 4%;
 }
-
+/* Absolute sizes */
 .square{
     height: 200px;
     width: 200px;
@@ -129,6 +132,11 @@ display: flex;
     padding-bottom: 30px;
     flex: 0 1 auto;
 }
-.gap{
-    gap: 5%;
+.button{
+    width: 200px;
+    border-radius: 25px;
+    height: 50px;
+}
+.whiteborder{
+    border: 3px solid #F9FAF8;
 }
