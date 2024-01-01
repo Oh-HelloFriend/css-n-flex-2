@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+/* BG colors */
 .darkbluebg{
     background-color: #1F2937;
 }
@@ -29,6 +30,7 @@ body{
 .graybg{
     background-color: #E5E7EB;
 }
+/* Fonts */
 .white{
     color: #F9FAF8;
 }
@@ -50,17 +52,9 @@ body{
 .extrabold{
     font: bolder;
 }
-.square{
-    height: 200px;
-    width: 200px;
-    border: solid 4px #3882F6;
-    border-radius: 25px;
-}
-.boxaroundsquare{
-    width: 200px;
-}
+/* Flex */
 .flex{
-    display: flex;
+display: flex;
 }
 .column{
     flex-direction: column;
@@ -68,32 +62,16 @@ body{
 .flexone{
     flex: 1;
 }
+.flextwo{
+    flex: 2;
+}
 .flexthree{
     flex: 3;
 }
 .wrap{
     flex-wrap: wrap;
 }
-.logo{
-    width: 300px;
-    height: auto;
-}
-.smallpadding{
-    padding-left: 15%;
-    padding-right: 15%;
-}
-.bigpadding{
-    padding-left: 23%;
-    padding-right: 23%;
-}
-.paddingupdown{
-    padding-top: 8%;
-    padding-bottom: 8%;
-}
-.smallpaddingupdown{
-    padding-top: 4%;
-    padding-bottom: 4%;
-}
+/* Justify and align */
 .justifycenter{
     justify-content: center;
 }
@@ -112,6 +90,40 @@ body{
 .aligncontent{
     align-content: center;
 }
+.textcenter{
+    text-align: center;
+}
+/* Padding */
+.smallpadding{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.bigpadding{
+    padding-left: 23%;
+    padding-right: 23%;
+}
+.paddingupdown{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.smallpaddingupdown{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid 4px #3882F6;
+    border-radius: 25px;
+}
+.boxaroundsquare{
+    width: 200px;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
 .littlebar{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -119,7 +131,4 @@ body{
 }
 .gap{
     gap: 5%;
-}
-.textcenter{
-    text-align: center;
 }
